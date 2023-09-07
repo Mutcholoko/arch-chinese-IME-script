@@ -12,7 +12,16 @@ This is just a small script to automatize installing the Chinese IME (via Fcitx5
 8. Log out and log back in
 9. Configure Fcitx5 using the Config Tool, i.e. add the Pinyin input method
 
-Here are my recommended options for Fcitx5:
+### Here are my recommended options for Fcitx5 Pinyin:
+
+- [x] Enable Cloud Pinyin
+- [x] Change Previous Candidate Hotkey To "Up" key
+- [x] Change Next Candidate Hotkey To "Down" key
+- [ ] Remove "Up" and "Down" Hotkeys from Previous Page and Next Page 
+- [x] Change Minimum Pinyin Length to 2 (on Cloud Pinyin Settings)
+- [x] Change Backend to Baidu (on Cloud Pinyin Settings)
+- [x] Change Trigger Input Method Hotkey to "Super+Space" (on Global Options)
+- [ ] Remove Enumerate Input Method Group Forward/Backward Hotkeys (on Global Options)
 
 
 ### 谢谢！

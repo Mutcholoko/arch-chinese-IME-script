@@ -1,2 +1,3 @@
-# arch-chinese-IME-script
-A Script to automatize installing Fcitx5 with Chinese IME on Arch Linux btw
+# Arch Linux Chinese IME Automatic Install Script
+This is just a small script to automatize installing the Chinese IME (via Fcitx5) on Arch Linux, because I'm very lazy and I format my PC a lot.
+

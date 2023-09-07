@@ -12,6 +12,10 @@ This is just a small script to automatize installing the Chinese IME (via Fcitx5
 8. Log out and log back in
 9. Configure Fcitx5 using the Config Tool, i.e. add the Pinyin input method
 
+
+tip: You can copy/paste the first five commands all at once 
+
+
 ### Here are my recommended options for Fcitx5 Pinyin:
 
 - [x] Enable Cloud Pinyin

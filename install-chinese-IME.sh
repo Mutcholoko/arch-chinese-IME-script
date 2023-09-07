@@ -14,4 +14,12 @@ echo "GTK_IM_MODULE=fcitx" >> /etc/environment
 echo "QT_IM_MODULE=fcitx" >> /etc/environment
 echo "XMODIFIERS=@im=fcitx" >> /etc/environment
 
+# Set the config dir
+FCITX_CONFIG_DIR="$HOME/.config/fcitx5"
+
+# Modify Cloud Pinyin settings
+CLOUD_PINYIN_CONFIG="$FCITX_CONFIG_DIR/conf/cloudpinyin.conf"
+sed -i 's/MinimumPinyinLength=4/MinimumPinyinLength=2/' "$CLOUD_PINYIN_CONFIG"
+sed -i 's/Backend=GoogleCN/Backend=Baidu/' "$CLOUD_PINYIN_CONFIG"
+
 echo "Installation and configuration completed. Please restart your session or reboot for changes to take effect."
